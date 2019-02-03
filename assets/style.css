@@ -3,13 +3,13 @@ body {
 }
 
 a {
-  color: white;
+  color: #b9edb2;
   text-decoration: none;
   transition: all .5s ease;
 }
 
 a:hover {
-  color: white;
+  color: #b9edb2;
   text-decoration: none;
   letter-spacing: 1px;
   text-shadow: 0 0 3px white;
@@ -50,11 +50,6 @@ a:hover {
 .profile-bg {
   background-color: #000000;
   color: white;
-}
-
-.profile-bg p {
-  margin-top: 20px;
-  letter-spacing: 10px;
 }
 
 .underline {
@@ -177,4 +172,9 @@ input[type=submit]:hover {
 
 .container {
   padding: 20px;
+}
+
+.socials {
+  letter-spacing: 20px;
+  padding-top: 30px;
 }
