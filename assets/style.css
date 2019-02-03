@@ -11,8 +11,8 @@ a {
 a:hover {
   color: #b9edb2;
   text-decoration: none;
-  letter-spacing: 1px;
-  text-shadow: 0 0 3px white;
+
+  text-shadow: 0 0 5px white;
 }
 
 #splash {
