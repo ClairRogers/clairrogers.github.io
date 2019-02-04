@@ -127,22 +127,33 @@ figure:hover:before {
 
 .languages {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .languages img {
   max-height: 100px;
-  margin: 10px;
+  margin: 20px;
 }
 
 .languages2 {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .languages2 img {
   max-height: 100px;
-  margin: 10px;
+  margin: 20px;
+}
+
+.languages3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.languages3 img {
+  max-height: 100px;
+  margin: 20px;
 }
 
 input[type=text], select, textarea {
