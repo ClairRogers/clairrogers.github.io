@@ -2,6 +2,10 @@ body {
   font-family: 'KoHo', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   color: #b9edb2;
   text-decoration: none;
@@ -13,6 +17,18 @@ a:hover {
   text-decoration: none;
 
   text-shadow: 0 0 5px white;
+}
+
+.bg-mine {
+  background-color: rgba(0, 0, 0, 1);
+  position: fixed;
+  z-index: 20;
+  width: 100%
+}
+
+.navbar-toggler {
+  color: white;
+  opacity: .6;
 }
 
 #splash {
@@ -56,6 +72,10 @@ a:hover {
   padding-bottom: 10px;
   padding-top: 30px;
   border-bottom: solid 2px #45813c;
+}
+
+.border {
+  border: solid 1px #13abc4;
 }
 
 #skills {
@@ -127,33 +147,38 @@ figure:hover:before {
 
 .languages {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .languages img {
   max-height: 100px;
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .languages2 {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .languages2 img {
   max-height: 100px;
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
 }
 
 .languages3 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .languages3 img {
   max-height: 100px;
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
 }
 
 input[type=text], select, textarea {
